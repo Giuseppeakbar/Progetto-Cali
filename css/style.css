@@ -1,0 +1,125 @@
+/*tabella di intestazione*/
+
+head{
+    
+    background-color:  rgb(67, 67, 67);
+    
+}
+th,div{
+    background-color: rgb(67, 67, 67);
+    margin:0;
+    border-color:rgb(67, 67, 67);
+    text-align:center;
+    width: 1920px;
+    padding:5px;
+    border-color:rgb(67, 67, 67);
+    border-collapse:collapse;
+    
+}
+b{
+    font-family:Impact;
+    font-size:25pt;
+}
+p{
+    color:white;
+    font-family:'Times New Roman';
+    font-size:15pt;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+
+.titolo_h{
+    font-family:Impact;
+    font-size:100pt;
+}
+.sottotitolo_h{
+    font-family:Impact;
+    font-size:15pt;
+}
+.titolo_ef{
+    font-family:Impact;
+    font-size:70pt;
+}
+.sottotitolo_ef{
+    font-family:Impact;
+    font-size:22pt;
+}
+#aneddoto{
+    text-align:center;
+    border-color:solid black;
+}
+#cosa-e,#come-a{
+    font-family:'Times New Roman';
+    font-size:15pt;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+
+#pro_contro{
+    width: 80%;
+    margin: 20pt auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+#pro_contro ul,#pro_contro li,#pro_contro td{
+    font-size:15pt;
+    font-family:'Times New Roman';
+}
+#conclusioni{
+    margin-left:120px;
+    margin-right:120px;
+    text-align:justify;
+}
+caption {
+      caption-side: top;
+      text-align: left;
+      font-weight: bold;
+      font-size: 23pt;
+      font-family:Impact;
+      margin-bottom: 10px;
+    }
+
+/*piede pagina*/
+.piede_p,.piede_p th{
+    width:1920;
+    border-collapse:collapse;
+    border-spacing:0;
+
+}
+.piede_p caption{
+    text-align: right;
+    margin-right:200px;
+}
+.cr{
+    text-align:center;
+    font-family:Impact;
+    color: rgba(255, 255, 255, 0.624);
+}
+
+/*Spiegazione trazioni e push up e dips*/
+.sTrazione,.sPush,.sDips{
+    font-family:'Times New Roman';
+    font-size:17pt;
+    
+}
+/*Trazioni e dips video Video*/
+.t_video video,.d_video video{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    border-radius: 8px;
+}
+.t_video h2,.sTrazione h2,.d_video h2{
+    font-family:Impact;
+    font-weight: bold;
+}
+.t_video,.d_video{
+    vertical-align: top;
+    width: 60%;
+    text-align: center;
+}
+
+/*Push up*/
