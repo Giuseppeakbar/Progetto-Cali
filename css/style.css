@@ -16,6 +16,9 @@ th,div{
     border-collapse:collapse;
     
 }
+img{
+    border-radius:10px;
+}
 b{
     font-family:Impact;
     font-size:25pt;
@@ -45,6 +48,14 @@ a{
 .sottotitolo_ef{
     font-family:Impact;
     font-size:22pt;
+}
+.collegamenti_ef{
+    font-family:Impact;
+    font-size:15pt;
+}
+.titolo_rt{
+    font-family:Impact;
+    font-size:100pt;
 }
 #aneddoto{
     text-align:center;
@@ -95,31 +106,62 @@ caption {
     text-align: right;
     margin-right:200px;
 }
+/*Copyright*/
 .cr{
     text-align:center;
     font-family:Impact;
     color: rgba(255, 255, 255, 0.624);
 }
 
-/*Spiegazione trazioni e push up e dips*/
-.sTrazione,.sPush,.sDips{
+/*Spiegazione trazioni e push up e dips e Varianti es e conclusione ef*/
+.sTrazione,.sPush,.sDips,.t_skill span,.e_variante span,.e_variante ul,.conclusioni_ef span{
     font-family:'Times New Roman';
     font-size:17pt;
     
 }
 /*Trazioni e dips video Video*/
 .t_video video,.d_video video{
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
 }
-.t_video h2,.sTrazione h2,.d_video h2{
+/*Titolo dei sotto paragrafi evidenziati*/
+.t_video h2,.sTrazione h2,.d_video h2, .t_skill h2{
     font-family:Impact;
     font-weight: bold;
 }
+
+
 .t_video,.d_video{
     vertical-align: top;
     width: 60%;
     text-align: center;
 }
 
-/*Push up*/
+/*Per es Variante*/
+.e_variante h3{
+    font-family:Impact;
+    font-weight: bold;
+    font-size:20pt;
+}
+
+/*Spiegazione Cali skill*/
+.t_skill h2{
+    text-align:center,justify;
+}
+.t_skill{
+    margin-left:10%;
+    margin:10px;
+    
+}
+/*testo conclusioni */
+
+/*Testo per l'attenzione*/
+#t_attenzione{
+    color:rgb(186, 0, 0);
+    justify-content: center;
+    font-weight:900;
+}
+
+.header a:hover{
+    text-decoration:underline;
+}
