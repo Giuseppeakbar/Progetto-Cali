@@ -57,6 +57,23 @@ a{
     font-family:Impact;
     font-size:100pt;
 }
+.sottotitolo_rt{
+    font-family:Impact;
+    font-size:22pt;
+}
+.titolo_m{
+    font-family:Impact;
+    font-size:100pt;
+}
+.titolo_ar{
+    font-family:Impact;
+    font-size:100pt;
+}
+.sottotitolo_ar{
+    font-family:Impact;
+    font-size:22pt;
+}
+
 #aneddoto{
     text-align:center;
     border-color:solid black;
@@ -113,19 +130,22 @@ caption {
     color: rgba(255, 255, 255, 0.624);
 }
 
-/*Spiegazione trazioni e push up e dips e Varianti es e conclusione ef*/
-.sTrazione,.sPush,.sDips,.t_skill span,.e_variante span,.e_variante ul,.conclusioni_ef span{
+/*Spiegazione trazioni e push up e dips e Varianti es e conclusione ef, testo st rt*/
+.sTrazione,.sPush,.sDips,.t_skill span,.e_variante span,.e_variante ul,.conclusioni_ef span,
+.t_sottotitolo_rt span,.scheda_a span,.scheda_a ul,
+.s_muscoli span,.esercizi ul,.esercizi span{
     font-family:'Times New Roman';
     font-size:17pt;
     
 }
+
 /*Trazioni e dips video Video*/
 .t_video video,.d_video video{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
 }
 /*Titolo dei sotto paragrafi evidenziati*/
-.t_video h2,.sTrazione h2,.d_video h2, .t_skill h2{
+.t_video h2,.sTrazione h2,.d_video h2, .t_skill h2,.scheda_a h2,.esercizi h2{
     font-family:Impact;
     font-weight: bold;
 }
@@ -164,4 +184,15 @@ caption {
 
 .header a:hover{
     text-decoration:underline;
+}
+/*Muscoli coinvolti */
+.s_muscoli h2{
+    font-family:Impact;
+    font-size:40pt;
+}
+/*Conclusione altri rami cali*/
+.conclusione_ar span{
+    color:white;
+    font-family:'Times New Roman';
+    font-size:20pt;
 }
